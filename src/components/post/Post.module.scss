@@ -1,0 +1,39 @@
+.articleCont {
+  display: flex;
+  height: 200px;
+  aside {
+    flex: 1;
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  transition: all 0.6s ease-in;
+  &Full {
+    flex-direction: column;
+    height: 500px;
+    aside {
+      img {
+        width: 100%;
+        transition: all 0.6s ease-in;
+      }
+    }
+  }
+}
+.headerText {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  padding: 15px;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  &Full {
+    font-size: 36px;
+  }
+}
+.innerTxt {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: left;
+}

@@ -1,0 +1,44 @@
+.container {
+  background-color: #2f254d;
+  display: flex;
+  z-index: 200;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  .spacer {
+    flex: 3;
+  }
+}
+
+.root {
+  background-color: #2f254d;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+
+  flex: 18;
+}
+.buttons {
+  display: flex;
+
+  > div {
+    font-size: 20px;
+    transition: all 0.4s ease-in;
+    padding: 5px;
+    border-radius: 7px;
+    color: #fff;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.logo {
+  font-size: 24px;
+  letter-spacing: 0.15;
+  line-height: 35px;
+  font-weight: 700;
+  border-radius: 5px;
+  color: #fff;
+}
